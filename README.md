@@ -1,4 +1,8 @@
 # Discord-Auto-Chat
+
+<img src="https://img.shields.io/badge/Python-3.8-blue">
+
+
 디스코드 서버에서 채팅을 자동으로 입력해줍니다.
 
 ## 주의 (Warning!)
@@ -11,7 +15,7 @@
 - (제작 예정) 채팅 딜레이 내에서 마지막으로 검색된 단어가 나오면 답장 기능과 함께 문자열을 보내준다
 
 ## 환경 설정
-- 프로젝트 파일내에서 .env 생성 후
+- 프로젝트 파일내에서 .env 생성 후 다음과 같이 입력
 
 ```
 Discord_Auth_Token = ''
@@ -20,5 +24,3 @@ Chanel_End_Point = ''
 Chat_Max_Time = 
 Chat_Min_Time = 
 ```
-
-입력
